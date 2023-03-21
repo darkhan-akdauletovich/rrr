@@ -8,6 +8,10 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { e } from "maath/dist/index-43782085.esm";
 
+//81BhzFks22y5_aUew
+//template_6qtykms
+//service_5rli07s
+
 const initialFormValue = {
   name: "",
   email: "",
@@ -30,16 +34,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_ojg62m4",
-        "template_xvfxe1l",
+        "service_5rli07s",
+        "template_6qtykms",
         {
           from_name: form.name,
-          to_name: "Jahiker",
+          to_name: "Darkhan",
           from_email: form.email,
-          to_email: "rojasjahiker@gmail.com",
+          to_email: "d.bolatov2402@gmail.com",
           message: form.message,
         },
-        "dhcXlXi0W3e5ldG3S"
+        "81BhzFks22y5_aUew"
       )
       .then(
         (result) => {
